@@ -15,4 +15,3 @@ rededge = cv2.imread('spectral_images/RedEdge.tif', cv2.IMREAD_GRAYSCALE)
 fixed_image = green
 
 aligned_red = preprocess_and_align(fixed_image, red, red, color='red')
-
